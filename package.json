@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "yuwenovo-blog",
+  "version": "1.0.0",
+  "description": "yuwenovo 的博客",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "echarts": "^6.0.0",
+    "sass": "^1.93.3",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-llms": "^1.8.1",
+    "vitepress-theme-teek": "^1.5.2"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  }
+}
