@@ -18,8 +18,10 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
-    ["link", { rel: "icon", type: "image/png", href: "/logo.svg" }],
+    [
+      "link",
+      { rel: "icon", type: "image/svg+xml", href: "/vitepress-logo-mini.svg" },
+    ],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
     ["meta", { property: "og:title", content: "yuwenOvO 的博客" }],
