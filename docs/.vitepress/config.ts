@@ -112,11 +112,15 @@ export default defineConfig({
     ],
     search: {
       provider: "local",
+      // options: {
+      //   appId: "F1R21ZLH6M",
+      //   apiKey: "553fcaea2a73f8df28ce26ce840bbb1f",
+      //   indexName: "yuwenOvO Blog",
+      // },
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern:
-        "https://github.com/yuwenOvO/vitepress-theme-teek/edit/master/docs/:path",
+      pattern: "https://github.com/yuwenOvO/yuwenOvOBlog/edit/main/docs/:path",
     },
   },
   vite: {
