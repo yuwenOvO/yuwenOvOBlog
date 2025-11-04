@@ -111,12 +111,12 @@ export default defineConfig({
       },
     ],
     search: {
-      provider: "local",
-      // options: {
-      //   appId: "F1R21ZLH6M",
-      //   apiKey: "553fcaea2a73f8df28ce26ce840bbb1f",
-      //   indexName: "yuwenOvO Blog",
-      // },
+      provider: "algolia",
+      options: {
+        appId: "CWVRFLIMOB",
+        apiKey: "e054179cb4f0f18ba8ee1b960e3ea943",
+        indexName: "myBlog",
+      },
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
