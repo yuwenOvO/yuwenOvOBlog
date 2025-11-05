@@ -151,7 +151,15 @@ export const teekConfig = defineTeekConfig({
     transitionName: "tk-slide-fade", // 自定义过渡动画名称
     listStyleTitleTagPosition: "left", // 列表模式下的标题标签位置（postStyle 为 list）
     cardStyleTitleTagPosition: "left", // 卡片模式下的标题标签位置（postStyle 为 card）
-    defaultCoverImg: [], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
+    defaultCoverImg: [
+      "/photos/000.webp",
+      "/photos/001.webp",
+      "/photos/002.webp",
+      "/photos/003.webp",
+      "/photos/004.webp",
+      "/photos/005.webp",
+      "/photos/006.webp",
+    ], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
   },
   page: {
     disabled: false, // 是否禁用
