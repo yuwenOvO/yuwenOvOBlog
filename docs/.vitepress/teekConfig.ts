@@ -134,22 +134,22 @@ export const teekConfig = defineTeekConfig({
   // 壁纸模式，在首页 最顶部 进入全屏后开启，仅当 banner.bgStyle = 'fullImg' 或 bodyBgImg.imgSrc 存在才生效。
   wallpaper: {
     enabled: true, // 是否启用壁纸模式
-    hideBanner: false, // 开启壁纸模式后，是否隐藏 Banner
+    hideBanner: true, // 开启壁纸模式后，是否隐藏 Banner
     hideMask: true, // 开启壁纸模式后，是否隐藏 Banner 或 bodyBgImage 的遮罩层，则确保 banner.mask 和 bodyBgImage.mask 为 true 才生效
   },
   // 文章配置
   post: {
     postStyle: "list", // 文章列表风格
-    excerptPosition: "top", // 文章摘要位置
+    excerptPosition: "bottom", // 文章摘要位置
     showMore: true, // 是否显示更多按钮
     moreLabel: "阅读全文 >", // 更多按钮文字
     emptyLabel: "暂无文章", // 文章列表为空时的标签
-    coverImgMode: "default", // 文章封面图模式
+    coverImgMode: "full", // 文章封面图模式
     showCapture: true, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 300 个字符作为摘要
     splitSeparator: false, // 文章信息（作者、创建时间、分类、标签等信息）是否添加 | 分隔符
     transition: true, // 是否开启过渡动画
     transitionName: "tk-slide-fade", // 自定义过渡动画名称
-    listStyleTitleTagPosition: "right", // 列表模式下的标题标签位置（postStyle 为 list）
+    listStyleTitleTagPosition: "left", // 列表模式下的标题标签位置（postStyle 为 list）
     cardStyleTitleTagPosition: "left", // 卡片模式下的标题标签位置（postStyle 为 card）
     defaultCoverImg: [], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
   },
