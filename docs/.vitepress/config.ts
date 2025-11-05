@@ -95,6 +95,11 @@ export default defineConfig({
         activeMatch: "/01.nest文档/",
       },
       {
+        text: "工具文档",
+        link: "/tools/docker",
+        activeMatch: "/02.工具文档/",
+      },
+      {
         text: "功能页",
         items: [
           { text: "归档页", link: "/archives" },
