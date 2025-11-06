@@ -15,6 +15,18 @@ export const teekConfig = defineTeekConfig({
     duration: 300, // 动画持续时间，当 mode 为 out 时，默认为 300ms，mode 为 out-in 时，默认为 600ms
     easing: "ease-in", // 缓动函数
   },
+  markdown: {
+    demo: {
+      playgroundUrl: "", // Playground 链接
+      playgroundMainFileName: "App.vue", // Playground 主文件名
+      githubUrl: "https://github.com/yuwenOvO", // Github 链接
+      playgroundButtonTip: "在 Playground 中编辑", // 鼠标悬浮 Playground 按钮提示
+      githubButtonTip: "在 Github 中编辑", // 鼠标悬浮 Github 按钮提示
+      copyButtonTip: "复制代码", // 鼠标悬浮复制代码按钮提示
+      collapseSourceButtonTip: "查看源代码", // 鼠标悬浮查看源代码按钮提示
+      expandSourceButtonTip: "隐藏源代码", // 鼠标悬浮隐藏源代码按钮提示
+    },
+  },
   themeSize: "default", // 站点尺寸，默认为 medium
   // 右下角回到顶部配置
   backTop: {
