@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "yuwenovo-blog",
+  "version": "1.0.0",
+  "description": "yuwenovo 的博客",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev --host",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "echarts": "^6.0.0",
+    "sass": "^1.93.3",
+    "mermaid": "^11.12.1",
+    "vitepress-plugin-llms": "^1.8.1",
+    "vitepress-theme-teek": "^1.5.2",
+    "@vueuse/core": "^14.0.0 ",
+    "@vueuse/components": "^14.0.0 ",
+    "vitepress": "catalog:",
+    "markdown-it-container": "catalog:",
+    "@types/markdown-it": "catalog:",
+    "@types/markdown-it-container": "catalog:"
+  }
+}

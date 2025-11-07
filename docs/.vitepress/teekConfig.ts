@@ -1,5 +1,6 @@
 import { defineTeekConfig } from "vitepress-theme-teek/config";
 import { version } from "vitepress-theme-teek/es/version";
+import mermaidPlugin from "./theme/mdPlugins/mermaid";
 
 export const teekConfig = defineTeekConfig({
   teekTheme: true, // 是否启用 Teek 主题
@@ -16,6 +17,9 @@ export const teekConfig = defineTeekConfig({
     easing: "ease-in", // 缓动函数
   },
   markdown: {
+    config: (md) => {
+      md.use(mermaidPlugin);
+    },
     demo: {
       playgroundUrl: "", // Playground 链接
       playgroundMainFileName: "App.vue", // Playground 主文件名

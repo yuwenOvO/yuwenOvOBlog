@@ -19,7 +19,14 @@ import "vitepress-theme-teek/theme-chalk/tk-fade-up-animation.css"; // 首次加
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 
+import type { EnhanceAppContext } from "vitepress";
+
+import MermaidContainer from "./mdPlugins/mermaidContainer.vue";
+
 export default {
   extends: Teek,
   Layout: TeekLayoutProvider,
+  async enhanceApp({ app }: EnhanceAppContext) {
+    app.component("MermaidContainer", MermaidContainer);
+  },
 };
