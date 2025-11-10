@@ -23,7 +23,6 @@ const { start: startRuntime, stop: stopRuntime } = useRuntime(
 
 const watchRuntimeAndRibbon = async (layout: string) => {
   const isHome = layout === "home";
-  console.log("isHome========>", isHome);
 
   // 博客类风格的首页显示运行时间
   await nextTick();

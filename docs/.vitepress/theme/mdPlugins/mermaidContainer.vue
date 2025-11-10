@@ -123,6 +123,7 @@ async function render() {
     theme: document.documentElement.classList.contains("dark")
       ? "dark"
       : "default",
+    securityLevel: "loose",
   });
 
   const id = Math.random().toString(36).substring(2, 15);
